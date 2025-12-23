@@ -1,0 +1,214 @@
+You are a senior full-stack engineer and UI/UX designer.
+
+I want you to BUILD a COMPLETE FULL-STACK HOSPITAL MANAGEMENT WEB APPLICATION
+with STRICT CONDITIONS mentioned below. Read carefully and follow exactly.
+
+====================================================
+🔴 NON-NEGOTIABLE CONDITIONS
+====================================================
+
+1. 💰 BUDGET: ZERO (₹0)
+   - Use ONLY free-tier tools, services, and libraries.
+   - Do NOT suggest or use paid APIs, paid hosting, or paid assets.
+
+2. 🚀 DEPLOYMENT:
+   - FULL-STACK deployment on Render (frontend + backend).
+   - Database must be free-tier compatible.
+   - App must run after deployment without manual steps.
+
+3. 🤖 AI-FRIENDLY:
+   - Code should be simple, modular, and readable.
+   - Easy to maintain or extend later.
+   - No unnecessary over-engineering.
+
+====================================================
+🧠 PROJECT OVERVIEW
+====================================================
+
+Build a modern Hospital Management System with:
+- Public Website (no login)
+- Patient Authentication (single login/register flow)
+- Patient Dashboard
+- Admin Dashboard
+- Appointment Booking System
+- Reports & Medical History
+- Smooth UI animations
+- Dark / Light mode toggle
+- Custom animated cursor
+
+====================================================
+🧩 ROLES
+====================================================
+
+1. Admin (Hospital staff)
+2. Patient (Customer)
+
+(No doctor login for now – admin controls doctors)
+
+====================================================
+🌐 PUBLIC WEBSITE (NO LOGIN)
+====================================================
+
+Pages:
+- Home
+- About Hospital
+- Doctors
+- Services / Departments
+- Contact
+
+HOME PAGE REQUIREMENTS:
+- Hospital introduction section
+- CENTERED “Doctors Available” button
+- “Book Appointment” button
+- Smooth scroll animations
+- Section reveal animations
+- Responsive layout (mobile + desktop)
+
+DOCTORS PAGE:
+- Doctor photo
+- Name
+- Specialization
+- Availability
+- “Book Appointment” button
+
+====================================================
+🔐 AUTHENTICATION (IMPORTANT)
+====================================================
+
+- SINGLE FORM for Login + Register
+- If email exists → Login
+- If email does not exist → Register automatically
+- Use JWT authentication
+- Password hashing required
+
+====================================================
+👤 PATIENT DASHBOARD
+====================================================
+
+Patient can:
+- View profile details
+- View upcoming appointments
+- View appointment history
+- View medical reports
+- View X-rays / scans (image files)
+- Download reports (PDF / image)
+- View prescriptions
+- Edit basic profile info
+
+Dashboard UI:
+- Clean cards
+- Timeline style medical history
+- Download buttons
+- Status badges (Pending / Approved / Completed)
+
+====================================================
+📅 APPOINTMENT SYSTEM
+====================================================
+
+Flow:
+1. Select department
+2. Select doctor
+3. Select date & time
+4. Submit appointment request
+
+Admin can:
+- Approve / Reject appointments
+- Assign doctor
+- Reschedule time
+- Update appointment status
+
+Patient can:
+- See appointment status updates
+
+====================================================
+🛠️ ADMIN PANEL
+====================================================
+
+Admin features:
+- Secure admin login
+- Add / edit / delete doctors
+- Set doctor availability
+- View all patients
+- View all appointments
+- Upload reports & X-rays
+- Add prescriptions
+- Update appointment status
+
+Admin dashboard:
+- Total patients
+- Today’s appointments
+- Doctors available
+
+====================================================
+🎨 UI / UX REQUIREMENTS
+====================================================
+
+- Professional hospital look
+- Use provided images and logo (I will supply assets)
+- Smooth animations (CSS / Framer Motion – free only)
+- Beautiful custom cursor
+- Dark mode / Light mode toggle (top-right corner)
+- Mobile-first responsive design
+
+====================================================
+🛠️ TECH STACK (FREE ONLY)
+====================================================
+
+Frontend:
+- React + Vite
+- Tailwind CSS
+- Framer Motion (optional, free)
+
+Backend:
+- Node.js
+- Express.js
+- JWT authentication
+
+Database (choose one free):
+- MongoDB Atlas OR
+- Supabase OR
+- Neon (PostgreSQL)
+
+File Storage (free tier):
+- Cloudinary OR
+- Supabase Storage
+
+Hosting:
+- Render (full-stack deployment)
+
+====================================================
+📦 DELIVERABLES
+====================================================
+
+1. Full frontend code
+2. Full backend code
+3. Database schema / models
+4. Render deployment instructions
+5. Environment variables list
+6. Sample demo data
+7. Clean folder structure
+
+====================================================
+🚫 STRICTLY DO NOT
+====================================================
+
+- Do NOT include paid tools
+- Do NOT suggest upgrades
+- Do NOT skip deployment readiness
+- Do NOT leave TODOs unfinished
+
+====================================================
+✅ FINAL GOAL
+====================================================
+
+Deliver a COMPLETE, DEPLOYED, ZERO-BUDGET,
+PROFESSIONAL Hospital Management System
+with modern UI, animations, and dashboards.
+
+START BY:
+1️⃣ Designing database schema
+2️⃣ API routes
+3️⃣ UI page flow
+4️⃣ Then full implementation
+
+Proceed step by step and explain where needed.
